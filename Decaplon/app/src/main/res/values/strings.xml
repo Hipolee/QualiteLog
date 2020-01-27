@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Decaplon</string>
     <string name="title_item_detail">Détails Articles</string>
+    <string name="detail_toolbar_connexion">Connexion</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="password">Mot de Passe</string>
+    <string name="connexionBouton">Se Connecter</string>
 </resources>

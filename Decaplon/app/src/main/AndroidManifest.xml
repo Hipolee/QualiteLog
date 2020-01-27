@@ -28,6 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.decaplon.Controller.ItemListActivity" />
         </activity>
+        <activity android:name=".Controller.ConnexionActivity"></activity>
     </application>
 
 </manifest>
