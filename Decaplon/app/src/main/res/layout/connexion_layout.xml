@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Controller.ItemDetailActivity"
+    tools:ignore="MergeRootFrame">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/detail_toolbar_connexion"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="center"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:fitsSystemWindows="true"
+        app:contentScrim="?attr/colorPrimary"
+        app:layout_anchor="@+id/app_bar"
+        app:layout_anchorGravity="center"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        app:toolbarId="@+id/toolbar">
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    <Button
+        android:id="@+id/connexionBouton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="25dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/identifiant"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:text=""
+        android:inputType="none"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="25dp"
+        app:layout_anchorGravity="top|center" />
+
+    <EditText
+        android:id="@+id/identifiantValue"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="25dp"
+        app:layout_anchorGravity="top|center" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:text=""
+        android:inputType="none"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="25dp"
+        app:layout_anchorGravity="top|center" />
+
+    <EditText
+        android:id="@+id/passwordValue"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="25dp"
+        android:inputType="textPassword" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

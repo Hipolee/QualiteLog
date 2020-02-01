@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+   <entry>
+      <id>1</id>
+      <category>Nautique</category>
+      <content>Bonnet de bain</content>
+      <details>Le Bonnet de bain de bain que tout le monde aime mettre ! 9.99€</details>
+   </entry>
+   <entry>
+      <id>2</id>
+      <category>Athlétisme</category>
+      <content>Chaussure de sport</content>
+      <details>Des chaussures de sport comme dans tous les autres magasins. 200.00€ (Oui on fait notre paye la dessus)</details>
+   </entry>
+   <entry>
+      <id>3</id>
+      <category>Nautique</category>
+      <content>Slip de bain</content>
+      <details>Parce qu'un slip est toujours mieux et confortable qu'un caleçon (pas du tout.) 15.00€</details>
+   </entry>
+   <entry>
+      <id>4</id>
+      <category>Nautique</category>
+      <content>Lunettes de plongée</content>
+      <details>Elle sont trouées et laissent passer l'eau mais au moins vous aurez une dégaine de nageur avec ! 4.99€</details>
+   </entry>
+   <entry>
+      <id>5</id>
+      <category>Athlétisme</category>
+      <content>Gourde</content>
+      <details>Trouée pour faciliter l'escoulement de l'eau dans votre bouche ! 4.99€</details>
+   </entry>
+   <entry>
+      <id>6</id>
+      <category>Equestre</category>
+      <content>Cheval en plastique</content>
+      <details>Pour devenir le meilleur "Rider" comment dirait les américains ! 50,00€</details>
+   </entry>
+</feed>
