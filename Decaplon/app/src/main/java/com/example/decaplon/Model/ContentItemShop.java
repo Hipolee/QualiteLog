@@ -19,7 +19,17 @@ public class ContentItemShop {
     public static final List<ItemShop> ITEMS = new ArrayList<ItemShop>();
     public static final Map<String, ItemShop> ITEM_MAP = new HashMap<String, ItemShop>();
 
+    private static final int COUNT = 25;
+
     static {
+        // Add some sample items.
+        for (int i = 1; i <= COUNT; i++) {
+            addItem(createItemShop(i));
+        }
+    }
+
+    //Code non fonctionnel de lecture du fichier
+    /*static {
         addItem();
     }
 
@@ -40,8 +50,27 @@ public class ContentItemShop {
         }catch (XmlPullParserException xe){
             xe.printStackTrace();
         }
+    }*/
+
+    private static void addItem(ItemShop item) {
+        ITEMS.add(item);
+        ITEM_MAP.put(item.id, item);
     }
 
+    private static ItemShop createItemShop(int position) {
+        return new ItemShop(String.valueOf(position), "Item " + position, makeDetails(position));
+    }
+
+    private static String makeDetails(int position) {
+        StringBuilder builder = new StringBuilder();
+        builder.append("Details about Item: ").append(position);
+        builder.append("\nMore details information here.");
+        return builder.toString();
+    }
+
+    /**
+     * A dummy item representing a piece of content.
+     */
     public static class ItemShop {
         public final String id;
         public final String category;
@@ -67,5 +96,4 @@ public class ContentItemShop {
             return content;
         }
     }
-
 }

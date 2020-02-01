@@ -1,4 +1,4 @@
-package com.example.decaplon;
+/*package com.example.decaplon;
 
 import com.example.decaplon.Model.ContentItemShop;
 import com.example.decaplon.Utils.XmlParser;
@@ -13,14 +13,11 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 public class FileReaderTest {
-
     private static List<ContentItemShop.ItemShop> tmp = null;
 
     static{
@@ -72,4 +69,4 @@ public class FileReaderTest {
         assertNotEquals(tmp.get(0).details,"");
 
     }
-}
+}*/
